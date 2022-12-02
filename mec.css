@@ -1,18 +1,19 @@
 .container {
-    border: 1px solid rgb(4, 4, 59);
-    background: rgb(4, 4, 59);
+    border: 1px solid #99B2DD;
+    background: #99B2DD;
     color:white;
+    text-decoration: none;
 }
 
 
 body{
-    background-color: #F8EDEB;
+    background-color: #685044;
 }
 
 
 .container:hover{
     color: rgb(9, 7, 3);
-    background: rgb(65, 65, 118);
+    background: #3A405A;
 }
 
 

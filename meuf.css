@@ -1,17 +1,18 @@
 
 .container {
-    border: 1px solid rgb(211, 36, 156);
-    background: rgb(225, 9, 157);
+    border: 1px solid #E56B70;
+    background: #E56B70;
     color:rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 
 body{
-    background-color: rgb(210, 87, 194);
+    background-color: #F391A0;
 }
 
 
 .container:hover{
     color: rgb(255, 255, 255);
-    background: rgb(138, 17, 120);
+    background: #EA3788;
 }
