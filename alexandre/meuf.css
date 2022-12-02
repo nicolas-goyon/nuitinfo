@@ -1,0 +1,17 @@
+
+.container {
+    border: 1px solid rgb(211, 36, 156);
+    background: rgb(225, 9, 157);
+    color:rgb(0, 0, 0);
+}
+
+
+body{
+    background-color: rgb(210, 87, 194);
+}
+
+
+.container:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(138, 17, 120);
+}
