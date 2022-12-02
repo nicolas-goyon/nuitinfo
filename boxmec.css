@@ -1,0 +1,46 @@
+#title{
+    color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#intro{
+    color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+#button1{
+  background-color: #DCDCDC; /* Grey */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer p
+{
+    font-size: 1.0em;
+    text-align: center;
+
+}
+
+footer {
+    font-weight: bold;
+    text-transform: uppercase;
+	color: white;
+}
+
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
