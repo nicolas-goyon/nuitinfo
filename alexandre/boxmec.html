@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <title>Bienvenu</title>
+</head>
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="mec.css">
+<link rel="stylesheet" href="boxmec.css">
+
+<body>
+    <h1 id="title">Bienvenu, fais comme chez toi</h1>
+    <p id="intro">Ici, on donne des conseils et infos utiles pour les personnes qui se sentent plutot masculin par
+        rapport a leur identité. N'hésitez pas a cliquer sur les differentes sections pour des jeux ludiques 
+        et/ou des informations intéressantes!
+    </p>
+    <button id="button1">
+        Je me sens plutot feminin
+    </button>
+    <div class="grid">
+            <a class="container"; id="box1"; href="index.html">
+                <p>Draguer</p>
+            </a>
+            <a class="container" id="box2"; href="embrassermec.html">
+                <p>Embrasser</p>
+            </a>
+            <a class="container" id="box3"; href="baisermec.html">
+                <p>Baiser</p>
+            </a>
+            <a class="container" id="box4"; href="mstmec.html">
+                <p>MST</p>
+            </a>
+            <a class="container"; id="box5"; href="sidamec.html">
+                <p>SIDA</p>
+            </a>
+            <a class="container" id="box6"; href="contraceptionmec.html">
+                <p>Contraception</p>
+            </a>
+            <a class="container" id="box7"; href="faq1.html">
+                <p>FAQ</p>
+            </a>
+            <a class="container" id="box8"; href="contactsmec.html">
+                <p>Contacts</p>
+            </a>
+    </div>
+</body>
+</html>
+
+<script>
+    let button = document.getElementById("button1");
+    button.onclick = function(){
+        window.location.href = "boxmeuf.html";
+    }
+
+</script>
